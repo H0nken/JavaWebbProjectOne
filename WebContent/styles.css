@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+div{
+	background-color: grey;
+	height: 400px
+}
+
+.secondpage-div{
+	background-color: yellow;
+	height: 400px
+}
+
+.thirdpage-div{
+	background-color: red;
+	height: 400px
+}
+
+
+.footer{
+	background-color: pink;
+	height: 70px
+}
+
+.header{
+	background-color: pink;
+	height: 70px
+}
+

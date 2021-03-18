@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en" >
+<html>
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
@@ -11,24 +11,23 @@
 <jsp:include page="header.jsp"></jsp:include>
 
 
-<%! String utkn="!"; %>
-<%! String space=" "; %>
+<%! String utkn="!!!"; %>
+<%! String tt=" "; %>
+<div class="thirdpage-div" >
+<h1> 
 
-<div class="secondpage-div" >
-<h1>Congratulation, 
+
+Oh no!  
 <%
 String fname=request.getParameter("fname");
 String lname=request.getParameter("lname");
 
-out.print(fname+space+lname+utkn+space);
+out.print(fname+tt+lname+", ");
 %>
-You'r a genius!
+YOU SUCK!
+
 </h1>
-
-
 </div>
-
 <jsp:include page="footer.jsp"></jsp:include>
-<script src="projectone.js"></script>
 </body>
 </html>
